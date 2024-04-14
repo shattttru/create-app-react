@@ -1,0 +1,36 @@
+.bordered-form-container {
+    width: 300px;
+    margin: auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  input, select {
+    width: calc(100% - 30px); /* Adjust width to account for image width */
+    padding: 10px;
+    border: 1px solid #ccc; /* Add border on all sides */
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-img {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
